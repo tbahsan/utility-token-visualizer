@@ -109,7 +109,7 @@ Tariff change? Just update `tariffs/tariffs.json` + the `last_verified` date —
 
 <p align="center">
   <b>tbahsan</b><br>
-  Building open-source, Bengali-first web tools — Dhaka, Bangladesh<br>
+  Building open-source, Bengali-first web tools — Rangpur, Bangladesh<br>
   <a href="https://github.com/tbahsan">github.com/tbahsan</a> •
   <a href="https://github.com/tbahsan?tab=repositories">More projects</a> •
   <a href="https://github.com/tbahsan/utility-token-visualizer/issues">Bugs / ideas</a>
@@ -128,4 +128,4 @@ If this helped you, please ⭐ **Star** it and share with friends. Every star fu
 
 **MIT © 2026 tbahsan** — see [LICENSE](LICENSE). Fork it, learn from it, improve it — just keep the original author's credit.
 
-<p align="center"><sub>Made with care in Dhaka, Bangladesh • ঢাকায় যত্নে তৈরি</sub></p>
+<p align="center"><sub>Made with care in Rangpur, Bangladesh • রংপুরে যত্নে তৈরি</sub></p>

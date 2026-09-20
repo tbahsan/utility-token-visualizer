@@ -1,7 +1,7 @@
 /* TEAM */
 Developer: tbahsan
 GitHub: https://github.com/tbahsan
-Location: Dhaka, Bangladesh
+Location: Rangpur, Bangladesh
 
 /* SITE */
 Language: Bengali (primary), English (secondary)

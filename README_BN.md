@@ -109,7 +109,7 @@ utility-token-visualizer/
 
 <p align="center">
   <b>tbahsan</b><br>
-  ওপেন-সোর্স, বাংলা-প্রথম ওয়েব টুল নির্মাতা — ঢাকা, বাংলাদেশ<br>
+  ওপেন-সোর্স, বাংলা-প্রথম ওয়েব টুল নির্মাতা — রংপুর, বাংলাদেশ<br>
   <a href="https://github.com/tbahsan">github.com/tbahsan</a> •
   <a href="https://github.com/tbahsan?tab=repositories">আরও প্রজেক্ট</a> •
   <a href="https://github.com/tbahsan/utility-token-visualizer/issues">বাগ / পরামর্শ</a>
@@ -128,4 +128,4 @@ utility-token-visualizer/
 
 **MIT © 2026 tbahsan** — দেখুন [LICENSE](LICENSE)। ফোর্ক করুন, শিখুন, উন্নত করুন — শুধু মূল নির্মাতার ক্রেডিট রাখুন।
 
-<p align="center"><sub>ঢাকায় যত্নে তৈরি • Made with care in Dhaka, Bangladesh</sub></p>
+<p align="center"><sub>রংপুরে যত্নে তৈরি • Made with care in Rangpur, Bangladesh</sub></p>
