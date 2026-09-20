@@ -1,0 +1,37 @@
+{
+  "schema_version": 2,
+  "category": "LT-A (residential)",
+  "last_verified": "2026-09-20",
+  "sources": [
+    "BERC retail order via Prothom Alo (June 2026 rollback: 0-50 stays Tk 4.63, 0-75 stays Tk 5.26)",
+    "ebill.info.bd 2026 calculator (marginal/block slabs; 200-unit sample math cross-check)",
+    "Distribution co. calculators (DESCO/DPDC/NESCO/BPDB LT-A uniform residential slabs)"
+  ],
+  "notes_bn": "আবাসিক স্ল্যাব সব বিতরণ কোম্পানিতে অভিন্ন ধরা হয়েছে। রসিদের সাথে অমিল পেলে GitHub issue-তে জানান। লাইফলাইন রেট শুধু মাসে মোট ৫০ ইউনিট পর্যন্ত ব্যবহারে প্রযোজ্য।",
+  "notes_en": "Residential LT-A slabs assumed uniform across distributors. Lifeline rate applies only when total monthly use is <= 50 units. Report receipt mismatches via GitHub issues.",
+  "defaults": {
+    "effective_date": "2026-06-01",
+    "vat_percent": 5.0,
+    "vat_method": "inclusive_on_gross",
+    "prepaid_rebate_percent": 0.5,
+    "meter_rent": { "single_phase": 40.0, "three_phase": 250.0 },
+    "demand_charge_per_kw": 42.0,
+    "lifeline_only_if_total_lte_50": true,
+    "slabs": [
+      { "upto": 50, "rate": 4.63, "lifeline": true, "label_bn": "লাইফলাইন (০–৫০)", "label_en": "Lifeline (0-50)" },
+      { "upto": 75, "rate": 5.26, "label_bn": "১ম ধাপ (০–৭৫)", "label_en": "Step 1 (0-75)" },
+      { "upto": 200, "rate": 8.50, "label_bn": "২য় ধাপ (৭৬–২০০)", "label_en": "Step 2 (76-200)" },
+      { "upto": 300, "rate": 9.10, "label_bn": "৩য় ধাপ (২০১–৩০০)", "label_en": "Step 3 (201-300)" },
+      { "upto": 400, "rate": 9.62, "label_bn": "৪র্থ ধাপ (৩০১–৪০০)", "label_en": "Step 4 (301-400)" },
+      { "upto": 600, "rate": 15.01, "label_bn": "৫ম ধাপ (৪০১–৬০০)", "label_en": "Step 5 (401-600)" },
+      { "upto": null, "rate": 17.35, "label_bn": "৬ষ্ঠ ধাপ (৬০০+)", "label_en": "Step 6 (600+)" }
+    ]
+  },
+  "providers": {
+    "DESCO": { "name_bn": "ডেসকো", "override": null },
+    "DPDC": { "name_bn": "ডিপিডিসি", "override": null },
+    "NESCO": { "name_bn": "নেসকো", "override": null },
+    "BPDB": { "name_bn": "বিপিডিবি", "override": null },
+    "WZPDCL": { "name_bn": "ওজোপাডিকো", "override": null }
+  }
+}

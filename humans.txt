@@ -1,0 +1,10 @@
+/* TEAM */
+Developer: tbahsan
+GitHub: https://github.com/tbahsan
+Location: Dhaka, Bangladesh
+
+/* SITE */
+Language: Bengali (primary), English (secondary)
+Stack: HTML + CSS + Vanilla JS, no backend
+Privacy: 100% client-side, no tracking
+License: MIT (c) 2026 tbahsan

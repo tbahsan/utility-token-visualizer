@@ -1,0 +1,9 @@
+@media print{
+  body{background:#fff;color:#000;max-width:none}
+  .app-header .controls,.provider-bar .hint,.tabs,.btn-row,#toast,.skip,.whatif,#btn-num{display:none!important}
+  .tab-panel,.tab-panel[hidden]{display:none!important}
+  .tab-panel.active{display:block!important}
+  .card{box-shadow:none;border:1px solid #999;break-inside:avoid}
+  footer{color:#333}
+  a{color:#000;text-decoration:none}
+}

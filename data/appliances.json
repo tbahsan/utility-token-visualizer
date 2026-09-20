@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "last_verified": "2026-09-20",
+  "notes_bn": "ওয়াট রেটিং আনুমানিক (সাধারণ মডেল)। নিজের যন্ত্রের গায়ের স্টিকার দেখে ওয়াট বসান।",
+  "items": [
+    { "name_bn": "সিলিং ফ্যান", "name_en": "Ceiling fan", "watt": 75, "hours": 12, "qty": 2 },
+    { "name_bn": "এলইডি বাল্ব", "name_en": "LED bulb", "watt": 12, "hours": 6, "qty": 5 },
+    { "name_bn": "ফ্রিজ (মাঝারি)", "name_en": "Fridge (medium)", "watt": 150, "hours": 8, "qty": 1 },
+    { "name_bn": "টিভি (LED 32\")", "name_en": "TV (LED 32in)", "watt": 60, "hours": 4, "qty": 1 },
+    { "name_bn": "এসি (১.৫ টন)", "name_en": "AC (1.5 ton)", "watt": 1500, "hours": 6, "qty": 1 },
+    { "name_bn": "পানির মোটর", "name_en": "Water motor", "watt": 750, "hours": 1, "qty": 1 },
+    { "name_bn": "আয়রন", "name_en": "Iron", "watt": 1000, "hours": 0.5, "qty": 1 },
+    { "name_bn": "মোবাইল চার্জার", "name_en": "Phone charger", "watt": 15, "hours": 3, "qty": 3 }
+  ]
+}
