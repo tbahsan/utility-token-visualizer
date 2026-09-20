@@ -40,6 +40,7 @@
     </div>
     <button id="btn-num" class="ctl" title="সংখ্যা: বাংলা/English">১২৩</button>
     <button id="btn-theme" class="ctl" title="থিম">☾</button>
+    <button id="btn-about" class="ctl" title="নির্মাতা / About">ⓘ</button>
   </div>
 </header>
 
@@ -109,6 +110,7 @@
         <div class="legend" id="r-legend"></div>
         <p class="explain" id="r-explain"></p>
         <p class="kwh-line" id="r-kwh"></p>
+        <p class="disc-line" data-i18n="rech.disc">মনে রাখুন: এটি আনুমানিক হিসাব। প্রকৃত টোকেনে বকেয়া সমন্বয় বা অতিরিক্ত চার্জ থাকতে পারে — সিদ্ধান্তের আগে রসিদের সাথে মিলিয়ে দেখুন।</p>
         <div class="btn-row">
           <button id="r-speak" data-i18n="common.listen">পড়ে শোনান</button>
           <button id="r-copy" data-i18n="common.copy">কপি</button>
@@ -246,12 +248,28 @@
 
 <footer>
   <p class="fresh" id="fresh"></p>
-  <p>© tbahsan • <a href="https://github.com/tbahsan">github.com/tbahsan</a> • <span data-i18n="foot.mit">MIT লাইসেন্স</span></p>
+  <p><span data-i18n="foot.made">ঢাকায় যত্নে তৈরি</span> — <b>tbahsan</b> • <a href="https://github.com/tbahsan">github.com/tbahsan</a> • <span data-i18n="foot.mit">MIT লাইসেন্স</span></p>
   <p class="privacy"><span data-i18n="foot.privacy">১০০% অফলাইন। কোনো ট্র্যাকিং নেই। আপনার তথ্য এই ডিভাইস ছাড়ে না।</span></p>
   <p class="disc" data-i18n="foot.disc">আনুমানিক হিসাব — সিদ্ধান্তের আগে বিদ্যুৎ বিল/রসিদের সাথে মিলিয়ে দেখুন। এটি আইনি বা প্রকৌশল পরামর্শ নয়।</p>
   <p><a href="https://github.com/tbahsan/utility-token-visualizer" data-i18n="foot.repo">সোর্স কোড ও ভুল সংশোধন (GitHub)</a></p>
 </footer>
 
+<dialog id="about-dialog" aria-labelledby="about-t">
+  <h2 id="about-t" data-i18n="about.title">অ্যাপ ও নির্মাতা</h2>
+  <div class="author-card">
+    <div class="avatar" aria-hidden="true">t</div>
+    <div>
+      <p class="author-name">tbahsan</p>
+      <p data-i18n="about.role">ডেভেলপার, ঢাকা — ওপেন-সোর্স, বাংলা-প্রথম ওয়েব টুল নির্মাণ</p>
+      <p><a href="https://github.com/tbahsan">github.com/tbahsan</a></p>
+    </div>
+  </div>
+  <p class="hint" data-i18n="about.app">প্রিপেইড মিটার সহায়ক v১.০ — HTML + CSS + Vanilla JS; কোনো সার্ভার বা ট্র্যাকিং ছাড়াই।</p>
+  <div class="btn-row">
+    <a class="btn" href="https://github.com/tbahsan/utility-token-visualizer" data-i18n="about.repo">সোর্স কোড ও ইস্যু</a>
+    <button id="about-close" data-i18n="about.close">বন্ধ করুন</button>
+  </div>
+</dialog>
 <div id="toast" role="status" aria-live="polite"></div>
 <script src="assets/js/app.js" defer></script>
 </body>

@@ -375,6 +375,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     applyI18n();
   };
   $('#btn-theme').onclick = () => setTheme(state.theme === 'auto' ? 'light' : state.theme === 'light' ? 'dark' : 'auto');
+  const dlg = $('#about-dialog');
+  $('#btn-about').onclick = () => { if (typeof dlg.showModal === 'function') dlg.showModal(); };
+  $('#about-close').onclick = () => dlg.close();
+  dlg.addEventListener('click', e => { if (e.target === dlg) dlg.close(); });
   // recharge
   $('#r-go').onclick = calcRecharge;
   ['#r-gross', '#r-dues', '#r-used'].forEach(s => $(s).addEventListener('keydown', e => { if (e.key === 'Enter') calcRecharge(); }));

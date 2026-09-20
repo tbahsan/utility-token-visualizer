@@ -124,5 +124,11 @@
   "dyn.ap_total": "Total ≈ {kwh} units/month ≈ Tk {tk}/month (at average rate).",
   "dyn.ap_save": "Running AC {h} hrs/day costs ≈ Tk {tk}/month ({kwh} units).",
   "dyn.fresh": "Tariff effective: {eff} • Verified: {ver}",
-  "dyn.stale": "Data may be older than 6 months — match with your receipt."
+  "dyn.stale": "Data may be older than 6 months — match with your receipt.",
+  "about.title": "About app & author",
+  "about.role": "Developer, Dhaka — building open-source, Bengali-first web tools",
+  "about.app": "Prepaid Meter Helper v1.0 — HTML + CSS + Vanilla JS; no server or tracking.",
+  "about.repo": "Source code & issues",
+  "about.close": "Close",
+  "foot.made": "Crafted with care in Dhaka"
 }
